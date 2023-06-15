@@ -3,8 +3,6 @@ import os
 from flask import Flask, request
 from werkzeug.utils import secure_filename
 from pyresparser import ResumeParser
-import nltk
-nltk.download('stopwords')
 
 app = Flask(__name__)
 
