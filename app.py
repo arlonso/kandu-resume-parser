@@ -2,6 +2,8 @@ import json
 import os
 from flask import Flask, request
 from werkzeug.utils import secure_filename
+import nltk
+nltk.download('stopwords')
 from pyresparser import ResumeParser
 
 app = Flask(__name__)
