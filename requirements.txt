@@ -1,6 +1,5 @@
 Flask
 Gunicorn
 pyresparser
-spacy==2.3.5
 
 https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-2.1.0/en_core_web_sm-2.1.0.tar.gz#egg=en_core_web_sm==2.1.0
